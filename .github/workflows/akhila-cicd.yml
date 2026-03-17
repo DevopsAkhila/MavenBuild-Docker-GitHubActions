@@ -1,5 +1,5 @@
 #CICD-Java using maven and github actions
-name: CICD-Java using maven, docker, github actions
+name: CICD-Java-docker
 on:
     push:
         branches:
@@ -9,7 +9,7 @@ on:
             - main
     workflow_dispatch:
 jobs:
-    CICD-Java using maven, docker, github actions:
+    CICD-Java-docker:
       runs-on: ubuntu-latest
       steps:
         - name: Checkout code
