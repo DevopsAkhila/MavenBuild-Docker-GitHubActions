@@ -1,4 +1,4 @@
-name: CICD-Java using maven, docker, github actions
+name: CICD-Java
 on:
     push:
         branches:
